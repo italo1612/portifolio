@@ -17,7 +17,7 @@
 }
 
 .branco{
-    color: white;
+    color: #00050b;
 }
  .txt:hover{
     color: #116fff;
@@ -87,11 +87,11 @@ img{
     color: #116fff;
 }
 button > a{
-    color: white;
+    color: #00050b;
     text-decoration: none;   
 }
 button > a:hover{
-    color: white;
+    color: #00050b;
     text-decoration: none;
 }
 .conteudo{
@@ -117,7 +117,7 @@ section .title::before{
  left: 50%;
  width: 180px;
  height: 3px;
- background: #111;
+ background: #cecece;
  transform: translateX(-50%);
 }
 section .title::after{
@@ -126,16 +126,17 @@ section .title::after{
  left: 50%;
  font-size: 20px;
  height: 30px;
- background: #fff;
+ background: #cecece;
  padding: 5px;
  color: #116fff;
  transform: translateX(-50%);
 }
-.servicos{
-    background-color: #111; 
+.servicos, .conteudo, .skills{
+    background-color: #00050b; 
+    color: #cecece;
 }
 .servicos .title::before{
-    background-color: #fff;
+    background-color: #cecece;
 }
 
 
