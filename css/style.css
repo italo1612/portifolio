@@ -5,12 +5,8 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-/* body{
-    background: #00050b !important;
-} */
 
 .navbar-brand{
-    /*    */
     margin-left: 3rem !important ;
 }
 .nav-link{
@@ -19,14 +15,12 @@
 .sboard{
     border: 0 solid black !important;
 }
-.teste{
-    border: none !important;
-}
+
 .branco{
     color: white;
 }
  .txt:hover{
-    color: blue;
+    color: #116fff;
 }
 .max-width{
     max-width: 1300px;
@@ -43,14 +37,14 @@
     transition: color 0.3s ease !important;
 }
 .navbaralt a:hover{
-    color: blue !important;
+    color: #116fff !important;
 }
 .navbaralt.sticky{
       background-color: black;
       padding: 10px 0;
 } 
 .navbaralt.sticky a span{ 
-    color: blue;
+    color: #116fff;
 } 
 .home{
     height: 700px;
@@ -79,15 +73,18 @@
     margin-left: 5px 0;
 } 
 .home .home-content .text-3 span{
-    color:blue;
+    color:#116fff;
     font-weight: 500;
 } 
-
 img{
     width: 300px;
     height: 300px;
     object-fit: cover;
     border-radius: 6px;
+}
+.sobre-title{
+    font-family: 'Roboto', sans-serif;
+    color: #116fff;
 }
 button > a{
     color: white;
@@ -96,6 +93,9 @@ button > a{
 button > a:hover{
     color: white;
     text-decoration: none;
+}
+.conteudo{
+    font-family: Arial, Helvetica, sans-serif;
 }
 section{
     padding: 100px 0px;
@@ -109,7 +109,6 @@ section .title{
  margin-bottom: 60px;
  padding-bottom: 20px;
  position: relative;
- 
 }
 section .title::before{
  content: "";
@@ -129,7 +128,7 @@ section .title::after{
  height: 30px;
  background: #fff;
  padding: 5px;
- color: blue;
+ color: #116fff;
  transform: translateX(-50%);
 }
 .servicos{
@@ -139,12 +138,7 @@ section .title::after{
     background-color: #fff;
 }
 
-.servicos .serv-content .card2{
-    transition: all 0.3s ease ;
-}
-.servicos .serv-content .card2:hover{
-    transform: scale(1.05);
-}
+
 
 .skills .skills-content .colum{
     width: calc(50% - 30px);
@@ -178,7 +172,7 @@ section .title::after{
     height: 100%;
     top: 0;
     left: 0;
-    background-color: blue;
+    background-color: #116fff;
 }
 .skills .skills-content .rigth .html::before{
     width: 90%;
@@ -196,7 +190,7 @@ section .title::after{
     width: 50%;
 }
 .skills .skills-content .rigth .node::before{
-    width: 40%;
+    width: 50%;
 }
 .skills .skills-content .rigth .boot::before{
     width: 80%;
@@ -210,8 +204,6 @@ footer{
     padding: 20px 30px;
     text-align: center;
 }
-
-
 @media (max-width: 520px){
     .home{
         background: url(../source/images/homem.jpg);
@@ -236,6 +228,9 @@ footer{
     } 
     .home .max-width{
         margin: 2rem 0 auto 0 !important;
+    }
+    .navbar-brand{
+        margin-left: 1rem !important ;
     }
 }
 @media (max-width:1120px){
