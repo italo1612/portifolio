@@ -221,6 +221,10 @@ footer{
         height: 350px;
         color: #fff; 
     }
+    .img-p{
+        width: 150px; height: 190px;
+     
+    }
     .home .home-content .text-1{
         font-size: 27px;
         
