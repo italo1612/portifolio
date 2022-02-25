@@ -5,6 +5,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+ .cv{
+    color: #ccc !important;
+    font-weight: bold;
+}
 
 .navbar-brand{
     margin-left: 3rem !important ;
