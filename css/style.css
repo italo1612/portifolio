@@ -135,7 +135,7 @@ section .title::after{
  color: #116fff;
  transform: translateX(-50%);
 }
-.servicos, .conteudo, .skills{
+.servicos, .conteudo, .skills, .contact{
     background-color: #2a3036; 
     color: #cecece;
 }
@@ -205,6 +205,19 @@ section .title::after{
 }
 .skills .skills-content .rigth .python::before{
     width: 30%;
+}
+.list{
+    list-style: none;
+}
+.list-text{
+    margin-left: 30px;
+}
+.icon{
+    margin-right: 10px;
+    align-items: center;
+}
+b{
+    color: #116fff;
 }
 footer{
     background-color: #111;
