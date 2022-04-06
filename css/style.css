@@ -89,6 +89,7 @@ img{
 .sobre-title{
     font-family: 'Roboto', sans-serif;
     color: #116fff;
+    text-align: center;
 }
 button > a{
     color: #00050b;
