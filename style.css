@@ -54,7 +54,7 @@
     height: 700px;
     color: #fff;
     font-family: 'Ubuntu', sans-serif;
-    background: url(./source/images/homem.jpg);
+    background: url(source/images/homem.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
