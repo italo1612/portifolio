@@ -1,2 +1,2 @@
 # Portifólio
-Este é meu Portfólio profissional com o objetivo demonstra minhas habilidades, competências, qualificações e experiências.
+Este é meu Portfólio profissional com o objetivo de demonstrar minhas habilidades, competências, qualificações e experiências.
